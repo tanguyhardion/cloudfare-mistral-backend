@@ -40,7 +40,7 @@ export const mistralEndpoint = new Hono().post("/mistral", async (c) => {
 
   // Define the system prompt
   const systemPrompt = `
-You are a language tutor. For any user input, generate a JSON object with the following structure:
+You are a language tutor teaching Russian to French students. For any user input, generate a JSON object with the following structure:
 {
   "sentence": "<a Russian sentence>",
   "word": "<the preposition in the sentence>",

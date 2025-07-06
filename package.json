@@ -9,9 +9,10 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "langchain": "^0.3.29",
     "@langchain/mistralai": "^0.2.1",
     "hono": "^4.6.20",
-    "langchain": "^0.3.29"
+    "zod": "^3.25.74"
   },
   "devDependencies": {
     "@types/node": "22.13.0",
